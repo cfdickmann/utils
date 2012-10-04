@@ -47,7 +47,6 @@ int main(int argc, char** argv) {
     double quadratsumme;
     for (int i = 0; i < K; ++i)
         quadratsumme += pow(x[i], 2) / (double) (K);
-
     printf("Anzahl der Werte: %d\n",K);
     printf("mean: %f\n", mean);
     printf("stdev: %f\n", sqrt(quadratsumme - mean * mean)*(double)(K)/(double)(K-1));

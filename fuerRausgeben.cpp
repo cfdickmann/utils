@@ -1,3 +1,4 @@
+
 /* 
  * File:   fuerRausgeben.cpp
  * Author: dickmann
