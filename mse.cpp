@@ -78,7 +78,8 @@ int main(int argc, char** argv) {
 						/ (double) (K);
 
 			printf(" n: %d ", K);
-			printf("mse: %.5lf ", quadratsumme);
+			printf("mse: %.5lf, sqrt(mse) %.5lf ,  ", quadratsumme,
+					sqrt(quadratsumme));
 			printf(" %s ", argv[vec.at(kk)]);
 
 			if (lauf == laufmax)
