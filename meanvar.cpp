@@ -1,4 +1,3 @@
-
 /*
  * File: meanvar.cpp
  * Author: dickmann
@@ -85,8 +84,8 @@ int main(int argc, char** argv) {
 				quadratsumme += x[k] * x[k] / (double) (K);
 
 			printf(" n: %d ", K);
-			printf(" mean: %.3lf, ", mean);
-			printf("stdev: %.5lf ",
+			printf(" mean: %.5lf, ", mean);
+			printf("stdev: %.8lf ",
 					sqrt(quadratsumme - mean * mean) * (double) (K)
 							/ (double) (K - 1));
 			printf(" %s ", argv[vec.at(kk)]);
